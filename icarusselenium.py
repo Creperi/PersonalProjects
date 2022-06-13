@@ -1,3 +1,4 @@
+#In this code, we obtain grade statistics from my university platform and assign them to a result dictionary and print the elements separately.
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
