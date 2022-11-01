@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+
+.mainimg{
+    align: center;
+    width: 80%;
+}
+
+@include media-breakpoint-up(sm) {
+    .h1{
+      font-size: 2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    .h1{
+      font-size: 2rem;
+    }
+
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+@media(min-width: 350px){
+    .mainimg{
+        width: 90%;
+    }
+}
